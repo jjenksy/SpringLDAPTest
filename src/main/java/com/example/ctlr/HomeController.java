@@ -27,6 +27,7 @@ public class HomeController {
     }
 
 
+    //todo turn the code into a service to setup auth requests
     @RequestMapping("/getServlet")
     public ResponseEntity<Hello> getTridiumData(){
         //get data from a remote server
